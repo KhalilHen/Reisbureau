@@ -94,115 +94,89 @@ header a{
 }
 
 
-.login-box{
-    width: 70%;
-    height: 400px;
+
+.register-box{
+    width: 45%;
+    height: 700px;
     background: white;
     margin-top: 50px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 3px 3px;
     border-radius: 5px;
 
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-.login-tab{
-    width: 80%;
-    height: 85%;
-    
-    display: flex;
     flex-direction: column;
+    align-items: center;
 }
-.boxshadow{
-    width: 50%;
-    box-shadow: lightgray 2px 0px 0px 0px;
+.input{
+    text-align: center;
+    padding-top: 25px;
 }
-.login-tab h2{
-    padding-bottom: 15px;
-}
-.login-tab p{
-    font-size: 14px;
-    text-align: left;
-}
-.login-tab a{
-    text-decoration: underline;
-    color: #c60c30;
+.input p{
+    color: #737373;
     font-size: 12px;
-    width: max-content;
 }
-.login-tab a:hover{
-    text-decoration: none;
-    background: rgb(230, 230, 230);
-}
-.login-tab input[type= text],
-.login-tab input[type = password]
-{
-    padding: 20px;
+.input input {
+    margin: 20px;
+    padding: 25px;
     height: 15px;
+    width: 200px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 3px 3px;
     border: none;
     border-radius: 5px;
 }
-.login-tab input:active{
-    border: none;
+.input input:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 4px 4px;
 }
-.login-tab input[type = checkbox]{
-    margin: 5px;
-    width: 15px;
-    height: 15px;
+.input input:focus {
+    outline: none;
+}
+.checkbox-label {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
+    font-size: 12px;
+}
+.checkbox-label input[type="checkbox"] {
+    margin-right: 10px;
 }
 input[type="checkbox"]:checked {
     accent-color: #c60c30;
 }
-.login-tab button{
-    padding: 15px;
+  .check p{
+    font-size: 12px;
+    margin: 20px;
+    padding: 10px;
+}
+form button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    width: 300px;
+    height: 50px;
     color: white;
     background: #c60c30;
     border: none;
     border-radius: 5px;
-    margin-top: 20px;
-    cursor: pointer;
-    width: 100%;
 }
-.login-tab button:hover{
+form button:hover{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 3px 3px;
 }
-.register-tab{
-    width: 40%;
-    height: 85%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.register-box p{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    text-align: center;
 }
-.textbox{
-    width: 70%;
-    height: auto;
-}
-.register-tab button{
-    margin: 20px;
-    padding: 15px;
-    background: none;
-    border-radius: 5px;
-    border: 1px solid black;
-    font: bold;
-    cursor: pointer;
-}
-.register-tab button:hover{
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 3px 3px;
-}
-.register-tab h2{
-    font-size: auto;
-}
-.register-tab a{
+.register-box a{
     text-decoration: underline;
-    color: black;
 }
-.register-tab a:hover{
+.register-box a:hover{
     text-decoration: none;
     background: rgb(230, 230, 230);
 }
+
 footer{
     height: 150px;
     width: 100%;
