@@ -36,5 +36,36 @@
             <div class="login"><a href="login.php">Inloggen</a></div>
         </div>
     </header>
+    <main>
+        <div class="head">
+            <h1>Informatie</h1>
+            <p>Welkom op de informatie-pagina van Emirates.<br>
+                op deze pagina kunt u meer te weten komen over<br>
+                ons en ons Emirates Skywards programma.</p>
+        </div>
+        <div class="maincontainer">
+            <div class="maininfo">
+                <h2>Over Emirates</h2>
+                
+            </div>
+            <div class="maininfo">
+                <h2>Emirates Skywards</h2>
+
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <p>Volg ons op onze socials </p>
+        <ul class="socials">
+            <li><a id="instagram" href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            <li><a id="twitter" href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a id="facebook" href="#" target="blank"><i class="fa fa-linkedin-square"></i></a></li>
+        </ul>
+        <a id="privacybeleid" href="privacy.php">Privacybeleid & Algemene voorwaarden</a>
+    </footer>
+    <div class="footerbottom">
+        <h1>copyright ©2023 Emirates | All Rights Reserved.</h1>
+    </div>
 </body>
 </html>

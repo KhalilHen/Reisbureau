@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    background: rgb(245, 245, 245);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background: #2b2b2b;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 2px 2px #404040;
+}
+.logo{
+    width: 150px;
+    height: 130px;
+    background: #c60c30;
+    margin-left: 200px;
+    z-index: 1;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: 700px;
+    padding: 0 20px;
+    line-height: 60px;
+    background: #2b2b2b;
+}
+#header1{
+    width: 78px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 500px;
+}
+nav ul li{
+    cursor: pointer;
+    height: 100%;
+    padding: 0 30px;
+    transition: .8s;
+}
+nav ul li:hover{
+    background: #1b1b1b;
+}
+nav ul li a{
+    color: #f1f1f1;
+    font-size: 18px;
+}
+.login-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+}
+.login{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100%;
+}
+header a{
+    font-size: 18px;
+    color: white;
+}
+.head img{
+    filter: brightness(.7);
+    width: 100%;
+}
+.maincontent{
+    width: 900px;
+    height: 300px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 3px 3px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+    margin-top: 375px;
+}
+.covid-info{
+    height: 60px;
+    width: 95%;
+    text-align: flex-start;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 3px 3px;
+    border: 1px solid #406dc0;
+    border-radius: 5px;
+}
+.covid-info h1{
+    font-size: 18px;
+    color: #406dc0;
+}
+.login-link{
+    width: 95%;
+    height: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.login-link a{
+    font-size: 12px;
+    text-decoration: underline;
+    color: red;
+}
+.login-link a:hover{
+    text-decoration: none;
+    background: rgb(230, 230, 230);
+}
+.inputfield{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:bottom;
+}
+.inputfield input{
+    width: 246px;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 3px 3px;
+}
+.inputfield select {
+    width: 286px;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 3px 3px;
+    appearance: none;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: right center;
+}  
+.inputfield select:focus {
+    outline: none;
+}
+.inputfield input:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 3px 3px;
+}
+.inputfield input:focus{
+    outline: none;
+}
+::placeholder{
+    color: black;
+}
+.inputfield button{
+    padding: 20px;
+    background: #c60c30;
+    color: white;
+    border-radius: 5px;
+    width: 287px;
+    border: none;
+    margin: 5px;
+}
+.inputfield button:hover{
+    background: #ad1836;
+}
+.title{
+    z-index: 10;
+    margin-top: 300px;
+}
+.bestemmingen{
+    margin-top: 25px;
+    height: 100vh;
+    width: 100%;
+    background: red;
+
+    display: flex;
+    flex-direction: column;
+    border: solid black 1px;
+    border-radius: 5px;
+}
+.row{
+    width: 100%;
+    height: 50%;
+    background: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.destination{
+    width: 500px;
+    height: 250px;
+    border: solid black 1px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.destination:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 3px 3px;
+}
+.destination-info{
+    width: 100%;
+    height: 50%;
+    justify-content: flex-end;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+}
+.destination-info p{
+    color: rgb(109, 109, 109);
+}
+.destination-info h5{
+    color: rgb(109, 109, 109);
+}
+footer{
+    height: 150px;
+    width: 100%;
+    background: #2b2b2b;
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+}
+footer p{
+    padding-top: 10px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 2rem 0;
+  }
+  .socials li{
+    margin: 0 10px;
+  }
+  .socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+  }
+  .socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color 0.4s ease;
+  }
+  #instagram:hover{
+    color: #e1306c;
+    background-color: white;
+  }
+  #twitter:hover{
+    background-color: #00acee;
+  }
+  #facebook:hover{
+    color: #0a66c2;
+    background-color: white;
+  }
+  #privacybeleid{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  #privacybeleid:hover{
+    text-decoration: underline;
+  }
+  .footerbottom{
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    background: #303030;
+  }
+  .footerbottom h1{
+    font-size: 12px;
+    margin-top: auto;
+    color: white;
+}
