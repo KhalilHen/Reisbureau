@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,25 +16,25 @@
 <body>
     <header>
         <div class="logo">
-            <a href="home.html">
+            <a href="index.php">
                 <img src="img/emirates-logo-badge (1).svg" alt="Logo">
             </a>
         </div>
         <nav>
             <ul>
                 <li id="header1">
-                    <a href="overons.html">Over ons</a>
+                    <a href="overons.php">Over ons</a>
                 </li>
                 <li id="header2">
-                    <a href="informatie.html">Informatie</a>
+                    <a href="informatie.php">Informatie</a>
                 </li>
                 <li id="header3">
-                    <a href="contact.html">Contact</a>
+                    <a href="contact.php">Contact</a>
                 </li>
             </ul>
         </nav>
         <div class="login-container">
-            <div class="login"><a href="login.html">Inloggen</a></div>
+            <div class="login"><a href="login.php">Inloggen</a></div>
         </div>
     </header>
 
@@ -47,7 +46,7 @@
 
 
     <div class="register-box">
-        <form action="login.html">
+        <form action="login.php">
         <div class="input">
             <input type="text" placeholder="Voornaam" required>
             <input type="text" placeholder="Achternaam" required>
@@ -80,7 +79,7 @@
             <li><a id="twitter" href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
             <li><a id="facebook" href="#" target="blank"><i class="fa fa-linkedin-square"></i></a></li>
         </ul>
-        <a id="privacybeleid" href="#">Privacybeleid & Algemene voorwaarden</a>
+        <a id="privacybeleid" href="privacy.php">Privacybeleid & Algemene voorwaarden</a>
     </footer>
     <div class="footerbottom">
         <h1>copyright ©2023 Emirates | All Rights Reserved.</h1>

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,25 +16,25 @@
 <body>
     <header>
         <div class="logo">
-            <a href="home.html">
+            <a href="index.php">
                 <img src="img/emirates-logo-badge (1).svg" alt="Logo">
             </a>
         </div>
         <nav>
             <ul>
                 <li id="header1">
-                    <a href="overons.html">Over ons</a>
+                    <a href="overons.php">Over ons</a>
                 </li>
                 <li id="header2">
-                    <a href="informatie.html">Informatie</a>
+                    <a href="informatie.php">Informatie</a>
                 </li>
                 <li id="header3">
-                    <a href="contact.html">Contact</a>
+                    <a href="contact.php">Contact</a>
                 </li>
             </ul>
         </nav>
         <div class="login-container">
-            <div class="login"><a href="home.html">Inloggen</a></div>
+            <div class="login"><a href="login.php">Inloggen</a></div>
         </div>
     </header>
 
@@ -49,12 +48,12 @@
         <div class="boxshadow">
             <div class="login-tab">
                 <h2>Inloggen</h2>
-                <input type="text" placeholder="E-mailadres of Emirates Skywards-nummer" required> <br>
-                <a href="#">E-mailadres of accountnummer vergeten?</a> <br>
-                <input type="password" placeholder="Wachtwoord" required> <br>
-                <a href="#">Wachtwoord vergeten/ aanmaken?</a> <br>
-                <p><input type="checkbox">Onthoud mij op dit apparaat.</p>
                 <form action="overons.html">
+                <input class="form-input" type="text" placeholder="E-mailadres of Emirates Skywards-nummer" required>
+                <a href="#">E-mailadres of accountnummer vergeten?</a> <br>
+                <input class="form-input" type="password" placeholder="Wachtwoord" required>
+                <a href="#">Wachtwoord vergeten/ aanpassen?</a> <br>
+                <p><input class="form-input" type="checkbox">Onthoud mij op dit apparaat.</p>
                     <button type="submit">Inloggen</button>
                 </form>
             </div>
@@ -64,7 +63,7 @@
                 <h2>Nog geen lid van Emirates Skywards?</h2>
                 <p>Registreer nu en haal het maximale uit elke mijl met <a href="#">Emirates Skywards</a></p>
             </div>
-            <form action="register.html">
+            <form action="register.php">
                 <button type="submit">Meld u nu aan</button>
             </form>
         </div>
@@ -77,7 +76,7 @@
             <li><a id="twitter" href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
             <li><a id="facebook" href="#" target="blank"><i class="fa fa-linkedin-square"></i></a></li>
         </ul>
-        <a id="privacybeleid" href="#">Privacybeleid & Algemene voorwaarden</a>
+        <a id="privacybeleid" href="privacy.php">Privacybeleid & Algemene voorwaarden</a>
 
     </footer>
     <div class="footerbottom">

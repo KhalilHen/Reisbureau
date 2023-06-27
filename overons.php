@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,25 +16,25 @@
 <body>
     <header>
         <div class="logo">
-            <a href="#">
+            <a href="index.php">
                 <img src="img/emirates-logo-badge (1).svg" alt="Logo">
             </a>
         </div>
         <nav>
             <ul>
                 <li id="header1">
-                    <a href="overons.html">Over ons</a>
+                    <a href="overons.php">Over ons</a>
                 </li>
                 <li id="header2">
-                    <a href="#">Informatie</a>
+                    <a href="informatie.php">Informatie</a>
                 </li>
                 <li id="header3">
-                    <a href="#">Contact</a>
+                    <a href="contact.php">Contact</a>
                 </li>
             </ul>
         </nav>
         <div class="login-container">
-            <div class="login"><a href="login.html">Inloggen</a></div>
+            <div class="login"><a href="login.php">Inloggen</a></div>
         </div>
     </header>
     <div class="head">
@@ -128,7 +127,7 @@
             <li><a id="twitter" href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
             <li><a id="facebook" href="#" target="blank"><i class="fa fa-linkedin-square"></i></a></li>
         </ul>
-        <a id="privacybeleid" href="">Privacybeleid & Algemene voorwaarden</a>
+        <a id="privacybeleid" href="privacy.php">Privacybeleid & Algemene voorwaarden</a>
 
     </footer>
     <div class="footerbottom">

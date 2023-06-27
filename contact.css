@@ -9,9 +9,6 @@
 }
 body{
     background: rgb(245, 245, 245);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
 }
 header{
     width: 100%;
@@ -42,12 +39,14 @@ nav{
     line-height: 60px;
     background: #2b2b2b;
 }
-#header1{
+#header3{
+    background-color: #1b1b1b;
     width: 78px;
 }
 nav ul{
     display: flex;
     list-style: none;
+    width: 500px;
 }
 nav ul li{
     cursor: pointer;
@@ -81,132 +80,111 @@ header a{
     font-size: 18px;
     color: white;
 }
-.text{
-    padding-top: 100px;
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
 }
-.text h1{
-    font-size: 38px;
+.head h1{
+    font-size: 32px;
+    padding-top: 80px;
 }
-.text p{
-    font-size: 22;
-    padding-top: 15px;
+.head p{
+    padding-top: 20px;
 }
-
-
-.login-box{
-    width: 70%;
-    height: 400px;
+.telnmmr{
+    width: 400px;
+    height: 150px;
     background: white;
-    margin-top: 50px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 3px 3px;
     border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 3px 3px;
+    margin-top: 75px;
+}
+.telnmmr h3{
+    padding: 25px;
+}
+.telnmmr h3::after{
+    content: "";
+    border-bottom: 2px solid #c60c30;
+    display: block;
+    width: 20%;
+}
+.telnmmr h1{
+    padding-left: 25px;
+}
+.offices-container{
+    width: 100%;
+    height: 550px;
+    background: white;
+    border: 1px solid black;
+    margin-top: 75px;
 
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-around;
-}
-.login-tab{
-    width: 80%;
-    height: 85%;
-    
-    display: flex;
-    flex-direction: column;
-}
-.boxshadow{
-    width: 50%;
-    box-shadow: lightgray 2px 0px 0px 0px;
-}
-.login-tab h2{
-    padding-bottom: 15px;
-}
-.login-tab p{
-    font-size: 14px;
-    text-align: left;
-}
-.login-tab a{
-    text-decoration: underline;
-    color: #c60c30;
-    font-size: 12px;
-}
-.login-tab a:hover{
-    text-decoration: none;
-    background: rgb(230, 230, 230);
-}
-.login-tab input[type= text],
-.login-tab input[type = password]
-{
-    padding: 15px;
-    height: 15px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 3px 3px;
-    border: none;
-    border-radius: 5px;
-    margin-top: 1.3rem;
-}
-.form-input:focus{
-    outline: none;
-}
-.login-tab input[type = checkbox]{
-    margin: 5px;
-    width: 15px;
-    height: 15px;
-}
-input[type="checkbox"]:checked {
-    accent-color: #c60c30;
-}
-.login-tab button{
-    padding: 15px;
-    color: white;
-    background: #c60c30;
-    border: none;
-    border-radius: 5px;
-    margin-top: 20px;
-    cursor: pointer;
-    width: 100%;
-}
-.login-tab button:hover{
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 3px 3px;
-}
-.register-tab{
-    width: 40%;
-    height: 85%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
-.textbox{
-    width: 100%;
-    height: auto;
-}
-.form-input{
-    width: 100%;
-    height: 30pc;
-}
-.register-tab button{
-    margin: 20px;
-    padding: 15px;
-    background: none;
+.office{
+    height: 400px;
+    width: 40%;
+    background: white;
     border-radius: 5px;
-    border: 1px solid black;
-    font: bold;
-    cursor: pointer;
-}
-.register-tab button:hover{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 3px 3px;
 }
-.register-tab h2{
-    font-size: auto;
+.office h2{
+    padding: 25px;
 }
-.register-tab a{
+.office h2::after{
+    content: "";
+    border-bottom: 2px solid #c60c30;
+    display: block;
+    width: 20%;
+}
+.office-content{
+    display: flex;
+    flex-direction: row;
+}
+.kantoortijden{
+    height: 80%;
+    width: 250px;
+    margin-left: 25px;
+}
+.kantoortijden h3{
     text-decoration: underline;
-    color: black;
 }
-.register-tab a:hover{
-    text-decoration: none;
-    background: rgb(230, 230, 230);
+.kantoortijden p{
+    padding-top: 15px;
 }
+.office-info{
+    width: 300px;
+    height: 250px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.office-telnmmr{
+    padding: 10px;
+}
+.office-telnmmr h4{
+    text-decoration: underline;
+}
+.office-adres{
+    padding: 10px;
+}
+.office-adres h4{
+    text-decoration: underline;
+}
+
+
 footer{
     height: 150px;
     width: 100%;
@@ -224,48 +202,48 @@ footer p{
     align-items: center;
     justify-content: center;
     margin: 1rem 0 2rem 0;
-  }
-  .socials li{
+}
+.socials li{
     margin: 0 10px;
-  }
-  .socials a{
+}
+.socials a{
     text-decoration: none;
     color: #fff;
     border: 1.1px solid white;
     padding: 5px;
     border-radius: 50%;
-  }
-  .socials a i{
+}
+.socials a i{
     font-size: 1.1rem;
     width: 20px;
     transition: color 0.4s ease;
-  }
-  #instagram:hover{
+}
+#instagram:hover{
     color: #e1306c;
     background-color: white;
-  }
-  #twitter:hover{
+}
+#twitter:hover{
     background-color: #00acee;
-  }
-  #facebook:hover{
+}
+#facebook:hover{
     color: #0a66c2;
     background-color: white;
-  }
-  #privacybeleid{
+}
+#privacybeleid{
     color: white;
     text-decoration: none;
     font-size: 14px;
-  }
-  #privacybeleid:hover{
+}
+#privacybeleid:hover{
     text-decoration: underline;
-  }
-  .footerbottom{
+}
+.footerbottom{
     width: 100%;
     height: 25px;
     text-align: center;
     background: #303030;
-  }
-  .footerbottom h1{
+}
+.footerbottom h1{
     font-size: 12px;
     margin-top: auto;
     color: white;
