@@ -1,5 +1,11 @@
+<?php
+
+require 'conn.php';
+
+?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -48,12 +54,13 @@
         <div class="boxshadow">
             <div class="login-tab">
                 <h2>Inloggen</h2>
-                <form action="overons.html">
-                <input class="form-input" type="text" placeholder="E-mailadres of Emirates Skywards-nummer" required>
-                <a href="#">E-mailadres of accountnummer vergeten?</a> <br>
-                <input class="form-input" type="password" placeholder="Wachtwoord" required>
-                <a href="#">Wachtwoord vergeten/ aanpassen?</a> <br>
-                <p><input class="form-input" type="checkbox">Onthoud mij op dit apparaat.</p>
+                <form action="login_query.php" method="POST">
+                    <input class="form-input" name="email" type="text"
+                        placeholder="E-mailadres of Emirates Skywards-nummer" required>
+                    <a href="#">E-mailadres of accountnummer vergeten?</a> <br>
+                    <input class="form-input" name="password" type="password" placeholder="Wachtwoord" required>
+                    <a href="#">Wachtwoord vergeten/ aanpassen?</a> <br>
+                    <p><input class="form-input" type="checkbox">Onthoud mij op dit apparaat.</p>
                     <button type="submit">Inloggen</button>
                 </form>
             </div>
@@ -64,7 +71,7 @@
                 <p>Registreer nu en haal het maximale uit elke mijl met <a href="#">Emirates Skywards</a></p>
             </div>
             <form action="register.php">
-                <button type="submit">Meld u nu aan</button>
+                <input type="submit" name="submit">Meld u nu aan</inout>
             </form>
         </div>
     </div>

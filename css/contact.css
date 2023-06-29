@@ -80,6 +80,171 @@ header a{
     font-size: 18px;
     color: white;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .head{
- text-align: center;   
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.head h1{
+    font-size: 32px;
+    padding-top: 80px;
+}
+.head p{
+    padding-top: 20px;
+}
+.telnmmr{
+    width: 400px;
+    height: 150px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 3px 3px;
+    margin-top: 75px;
+}
+.telnmmr h3{
+    padding: 25px;
+}
+.telnmmr h3::after{
+    content: "";
+    border-bottom: 2px solid #c60c30;
+    display: block;
+    width: 20%;
+}
+.telnmmr h1{
+    padding-left: 25px;
+}
+.offices-container{
+    width: 100%;
+    height: 550px;
+    background: white;
+    border: 1px solid black;
+    margin-top: 75px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.office{
+    height: 400px;
+    width: 40%;
+    background: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 3px 3px;
+}
+.office h2{
+    padding: 25px;
+}
+.office h2::after{
+    content: "";
+    border-bottom: 2px solid #c60c30;
+    display: block;
+    width: 20%;
+}
+.office-content{
+    display: flex;
+    flex-direction: row;
+}
+.kantoortijden{
+    height: 80%;
+    width: 250px;
+    margin-left: 25px;
+}
+.kantoortijden h3{
+    text-decoration: underline;
+}
+.kantoortijden p{
+    padding-top: 15px;
+}
+.office-info{
+    width: 300px;
+    height: 250px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.office-telnmmr{
+    padding: 10px;
+}
+.office-telnmmr h4{
+    text-decoration: underline;
+}
+.office-adres{
+    padding: 10px;
+}
+.office-adres h4{
+    text-decoration: underline;
+}
+
+
+footer{
+    height: 150px;
+    width: 100%;
+    background: #2b2b2b;
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+}
+footer p{
+    padding-top: 10px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 2rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color 0.4s ease;
+}
+#instagram:hover{
+    color: #e1306c;
+    background-color: white;
+}
+#twitter:hover{
+    background-color: #00acee;
+}
+#facebook:hover{
+    color: #0a66c2;
+    background-color: white;
+}
+#privacybeleid{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+#privacybeleid:hover{
+    text-decoration: underline;
+}
+.footerbottom{
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    background: #303030;
+}
+.footerbottom h1{
+    font-size: 12px;
+    margin-top: auto;
+    color: white;
 }
