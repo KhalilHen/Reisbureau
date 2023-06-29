@@ -18,7 +18,7 @@ if (isset($_SESSION['user_id'])) {
 
 
 
-        // Delete query with user ID and flight ID condition
+       
         $deleteStmt = $conn->prepare("UPDATE reizen SET user_id = NULL WHERE user_id = :user_id AND id = :flight_id");
         $deleteStmt->bindParam(':user_id', $user_id);
         $deleteStmt->bindParam(':flight_id', $flight_id);

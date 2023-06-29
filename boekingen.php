@@ -26,14 +26,6 @@ $stmt->execute();
 $reizen = $stmt->fetchAll();
 
 
-// $stmt = $conn->prepare("SELECT * FROM reizen  INNER JOIN users ON reizen.id = users.id ");
-// $stmt->execute();
-// $bookings = $stmt->fetchAll();
-
-// $stmt = $conn->prepare("SELECT reizen.id, reizen.vertrek, reizen.aankomst, reizen.prijs, reizen.naam, users.first_name, users.last_name
-//                        FROM reizen
-//                        INNER JOIN users ON reizen.user_id = users.id");
-
 
 
 ?>

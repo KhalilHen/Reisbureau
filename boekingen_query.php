@@ -3,7 +3,7 @@
 require 'conn.php';
 session_start();
 
-// Check if user_id exists in the session
+
 if (isset($_SESSION['user_id'])) {
     $user_id = $_SESSION['user_id'];
     if (isset($_GET['id'])) {
