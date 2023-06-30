@@ -49,7 +49,7 @@
             <div class="colum-block">
                 <div class="block-header">
                     <a class="link-style" href="bookedpage.php">
-                        <h1> Delete reizen </h1>
+                        <h1>Overzicht reizen </h1>
 
                     </a>
                 </div>

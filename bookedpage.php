@@ -73,7 +73,10 @@ $reizen = $stmt->fetchAll();
                 echo '<td class="text-styling">';
                 echo "<a href='delete.php?id=" . $row['id'] . "'>Delete </a>";
                 echo '</td>';
-                echo '</tr>';
+
+                echo '<td class="text-styling">';
+                echo "<a href='update.php?id=" . $row['id'] . "'>Update </a>";
+                echo '</td>';
             }
             ?>
 
